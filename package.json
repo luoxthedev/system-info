@@ -1,0 +1,19 @@
+{
+  "name": "system-info",
+  "version": "1.0.0",
+  "description": "A Node.js package to collect system information.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "system-info": "node src/commands/system-info.js",
+    "system-cpu": "node src/commands/system-cpu.js",
+    "system-memory": "node src/commands/system-memory.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "os": "^0.1.1",
+    "readline": "^1.3.0"
+  },
+  "author": "Luox",
+  "license": "ISC"
+}
