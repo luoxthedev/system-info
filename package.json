@@ -1,7 +1,7 @@
 {
   "name": "@luox.dev/system-info",
-  "version": "1.0.1",
-  "description": "A Node.js package to collect system information.",
+  "version": "1.0.3",
+  "description": "A NodeJS package to collect system information.",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",

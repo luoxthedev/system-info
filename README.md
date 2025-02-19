@@ -24,6 +24,10 @@ Cette commande récupère et retourne des informations spécifiques sur le proce
 
 Cette commande collecte et retourne des informations sur la mémoire, y compris la mémoire totale et la mémoire utilisée.
 
+### `system-all-info`
+
+Cette commande collecte et retourne toutes les informations sur le processeur, la mémoire et autres informations systèmes.
+
 ## Utilisation
 
 Après l'installation, vous pouvez utiliser les commandes suivantes dans votre terminal :
@@ -32,6 +36,16 @@ Après l'installation, vous pouvez utiliser les commandes suivantes dans votre t
 node src/index.js system-info
 node src/index.js system-cpu
 node src/index.js system-memory
+node src/index.js system-all-info
+```
+
+ou
+
+```bash
+node start system-info
+node start system-cpu
+node start system-memory
+node start system-all-info
 ```
 
 ## Contribuer
