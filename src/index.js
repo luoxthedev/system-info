@@ -18,6 +18,5 @@ const executeCommand = async (command) => {
     }
 };
 
-// Exemple d'écoute des commandes de l'utilisateur
-const userCommand = process.argv[2]; // Récupère la commande de l'utilisateur depuis les arguments de la ligne de commande
+const userCommand = process.argv[2];
 executeCommand(userCommand).then(console.log);
